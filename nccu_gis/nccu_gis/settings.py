@@ -26,9 +26,7 @@ SECRET_KEY = 'django-insecure-px_e2zsd^_s2o(-6d^9e52=k#4#=m$x5sy46n&($w5h^dix2+f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'urexpenses.herokuapp.com/'
-]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -55,6 +53,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'nccu_gis.urls'
+
 
 TEMPLATES = [
     {
