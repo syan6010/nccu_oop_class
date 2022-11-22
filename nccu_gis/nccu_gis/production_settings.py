@@ -2,12 +2,10 @@
 from .settings import *
 
 import dj_database_url
-DATABASES = {
-    'default': dj_database_url.config(),
-}
+# 修復資料庫部分
+DATABASES['default'] =  dj_database_url.config()
 
-# Static asset configuration.
-STATIC_ROOT = 'staticfile'
+
 
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure().
