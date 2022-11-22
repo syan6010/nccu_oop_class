@@ -2,7 +2,7 @@
 from .settings import *
 
 import dj_database_url
-# 修復資料庫部分
+# 修復資料庫測試
 DATABASES['default'] =  dj_database_url.config()
 
 
