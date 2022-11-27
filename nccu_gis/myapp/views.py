@@ -8,3 +8,7 @@ def index(request):
 def homepage_042(request):
     name = "108207442"
     return render(request, "homepage_042.html", locals())
+
+def homepage_test(request):
+    name = "test"
+    return render(request, "homepage_test.html", locals())
