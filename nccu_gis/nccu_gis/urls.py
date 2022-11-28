@@ -23,5 +23,6 @@ urlpatterns = [
     re_path(r'^$', views.index),
     re_path(r'^homepage_042/$', views.homepage_042),
     re_path(r'^homepage_000/$', views.homepage_000),
-    re_path(r'^homepage_test/$', views.homepage_test)
+    re_path(r'^homepage_test/$', views.homepage_test),
+    re_path(r'^homepage_004/$', views.homepage_004)
 ]

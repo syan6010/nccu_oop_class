@@ -14,3 +14,6 @@ def homepage_test(request):
 def homepage_000(request):
     name = "108207000"
     return render(request, "homepage_000.html", locals())
+def homepage_004(request):
+    name = "108207004"
+    return render(request, "homepage_004.html", locals())
